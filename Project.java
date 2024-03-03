@@ -14,7 +14,9 @@ class Project {
         this.customer = customer;
     }
 
-
+    public String getCustomer() {
+        return customer;
+    }
     public String getProjectName() {
         return projectName;
     }
