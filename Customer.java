@@ -11,7 +11,9 @@ class Customer {
         this.email = email;
         this.address = address;
     }
-
+    public String getName() {
+        return name;
+    }
     public Address getAddress() {
         return address;
     }
