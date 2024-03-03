@@ -10,7 +10,9 @@ class Address {
         this.zip = zip;
         this.state = state;
     }
-
+    public String getStreet() {
+        return street;
+    }
     public String getCity() {
         return city;
     }
